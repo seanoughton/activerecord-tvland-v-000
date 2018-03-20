@@ -4,7 +4,7 @@ class Show < ActiveRecord::Base
   belongs_to :network
 
 
-  def build_network(something)
+  def build_network(hash)
     #Character can chain-build associations to which it belongs
   end
 
