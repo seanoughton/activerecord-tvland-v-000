@@ -6,7 +6,7 @@ class Character < ActiveRecord::Base
     "#{self.name} always says: #{self.catchphrase}"
   end
 
-  #def build_network(something)
+  def build_network(something)
     #Character can chain-build associations to which it belongs
-  #end
+  end
 end
