@@ -7,5 +7,6 @@ class Character < ActiveRecord::Base
   end
 
   #def build_network(something)
+    #Character can chain-build associations to which it belongs
   #end
 end
